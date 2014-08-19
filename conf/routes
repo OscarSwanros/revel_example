@@ -12,6 +12,10 @@ POST    /persons/:id                            Persons.Update
 GET     /persons/:id                            Persons.Show
 GET     /persons/:id/delete                     Persons.Delete
 
+# API v1
+GET     /api/v1/persons                         API_V1.Index
+GET     /api/v1/persons/:id                     API_V1.Show
+POST    /api/v1/persons/new                     API_v1.Create
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
