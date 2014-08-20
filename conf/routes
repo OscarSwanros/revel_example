@@ -13,9 +13,9 @@ GET     /persons/:id                            Persons.Show
 GET     /persons/:id/delete                     Persons.Delete
 
 # API v1
-GET     /api/v1/persons                         API_V1.Index
-GET     /api/v1/persons/:id                     API_V1.Show
-POST    /api/v1/persons/new                     API_v1.Create
+GET     /api/v1/persons                         APIV1Persons.Index
+GET     /api/v1/persons/:id                     APIV1Persons.Show
+POST    /api/v1/persons/new                     APIV1Persons.Create
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
